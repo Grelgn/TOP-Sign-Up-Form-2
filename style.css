@@ -51,8 +51,16 @@ footer {
 }
 
 .top {
-    background-color: aliceblue;
+    background-color: whitesmoke;
     flex: 1;
+}
+
+.text {
+    font-weight: 600;
+    padding: 3vw;
+    padding-top: 15vh;
+    font-size: 22px;
+    width: 55ch;
 }
 
 .mid {
