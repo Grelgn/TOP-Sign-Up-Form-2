@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    margin: 0px;
+}
+
+.image {
+    background-color: antiquewhite;
+    flex: 1;
+}
+
+.site {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    height: 100vh;
+}
+
+.top {
+    background-color: aliceblue;
+    flex: 1;
+}
+
+.mid {
+    background-color: bisque;
+    flex: 1;
+}
+
+.bottom {
+    background-color: powderblue;
+    flex: 1;
+}
