@@ -50,7 +50,7 @@ footer {
     height: 100vh;
 }
 
-.top {
+.back {
     background-color: whitesmoke;
     flex: 1;
 }
@@ -63,12 +63,76 @@ footer {
     width: 55ch;
 }
 
-.mid {
-    background-color: bisque;
+.front {
+    background-color: white;
+    flex: 1;
+    padding: 3vh 3vw;
+    box-shadow: 6px 6px 6px gainsboro;
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 60%;
+  height: 30px;
+  border: 1px solid gainsboro;
+  border-radius: 4px;
+}
+
+.form {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.left, .right {
     flex: 1;
 }
 
-.bottom {
-    background-color: powderblue;
-    flex: 1;
+label {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .2em;
+    color: rgb(70, 70, 70);
+}
+
+h2 {
+    margin: 0;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid royalblue;
+    box-shadow: 4px 4px 4px gainsboro;
+}
+
+.error {
+    border: 1px solid crimson;
+}
+
+form {
+    position: relative;
+}
+
+button {
+    background-color: #596D48;
+    border: none;
+    border-radius: 8px;
+    /* padding: 16px 48px; */
+    width: min(250px, 30vw);
+    height: 48px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    bottom: -135px;
+    box-shadow: 4px 4px 4px gainsboro;
+}
+
+.already {
+    font-size: 16px;
+    padding: 12vh 3vw;
+}
+
+.already > b {
+    color: #596D48;
 }
